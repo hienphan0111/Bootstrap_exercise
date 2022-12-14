@@ -5,8 +5,282 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/a329405765.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+    <header>
+        <nav class="navbar navbar-expand-md d-flex navbar-dark bg-secondary">
+            <div class="container-fluid ">
+              <a class="navbar-brand" href="#">Jonh Doe</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse position-absolute top-0 end-0 m-1" id="navbarNav">
+                <ul class="navbar-nav d-flex">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <section class="port bg-dark" id="portfolio">
+            <div class="text-white d-flex align-items-center">
+                <ul class="social-icon d-flex p-2 flex-column">
+                    <li class="p-2" ><a href="https://twitter.com/HIENPHAN0111"><i class="fa-brands fa-twitter contact-icon fa-xl text-white"></i></a></li>
+                    <li class="p-2"><a href="https://www.linkedin.com/in/hien-phan-61097b256/"><i class="fa-brands fa-linkedin-in contact-icon fa-xl text-white"></i></a></li>
+                    <li class="p-2"><a href="https://github.com/hienphan0111"><i class="fa-brands fa-github contact-icon fa-xl text-white"></i></a></li>
+                    <li class="p-2"><a href="http://"><i class="fa-brands fa-angellist contact-icon fa-xl text-white"></i></a></li>   
+                </ul>
+                <div class="w-50 " style="padding: 143px 0 143px 143px;">
+                    <h1 class="header">
+                        Hey There.</br>I’m Alex
+                    </h1>
+                    <h3>I’am a Software Developer</h3>
+                    <p>I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
+                        don’t hestiate to contact me.</p>
+                </div>
+                <img src="./image/header-image.svg" width="645" height="633" alt="">
+                
+            </div>
+            <div class="position-relative">
+            </div>
+        </section>
+        <section class="container-fluid p-5" style="height: 1605px;">
+          <div class="row" style="margin-bottom: 70px;">
+            <div class="col-md-4 text-center" style="width: 315px; height: 52px; font-size: 40px;">Recent Works</div>
+            <div class="col-md-8"><div style="height: 2px; background-color: gray; margin-top: 30px"></div>
+            </div>
+          </div>
+
+          <div class="container-fluid m-10">
+            <div class="row">
+              <div class="col-md-7">
+                <div class="card" style="width: 650px; left: 10px;">
+                  <img class="card-img" src="placeholder.png" alt="Card image"/>
+                </div>
+              </div>
+              <div class="col-md-5">
+                <div class="card-body">
+                  <h2 class="card-title" style="width: 448px; height: 48px;">Multi-Post Stories</h2>
+                  <p style="margin-top: 10px; height:140px; font-size: 20px; line-height: 28px; font-weight:400; font-family: Inter;">
+                    A daily selection of privately personalized reads; no accounts or
+                    sign-ups required. has been the industry's standard dummy text
+                    ever since the 1500s, when an unknown printer took a standard
+                    dummy text.
+                  </p>
+                  <ul class="list-group list-group-horizontal gap-3"
+                    style="display: flex; flex-direction:row; align-items:center;">
+                    <li class="list-group-item">css</li>
+                    <li class="list-group-item" >html</li>
+                    <li class="list-group-item">bootstrap</li>
+                    <li class="list-group-item">Ruby</li>
+                  </ul>
+
+                  <button type="button" class="btn border-0" style="margin-top:15px; background-color: #F55800; color:#fff;">
+                    See Project
+                  </button>
+                </div>
+              </div>
+            </div>
+            <section class="container-fluid" style="width: 1155px; height:448px">
+              <div class="row" style="gap: 10px;">
+                <div class="card" style="width:369px; height: 435px; margin-top:10px">
+                  <img class="card-img-top" src="workImg-1.png" alt="Card image">
+                  <div class="card-img-overlay" style="top:178px; width:50px; height:20px; left: 134.5px;">
+                    <img class="card-img" src="Hand.png" alt="hand">
+                  </div>
+                  <div class="card-img-overlay" style=" top:380px;">
+                    <a href="#" class="btn" style=" width:352px; background-color: #F55800; color:#fff">See Profile</a>
+                  </div>
+                </div>
+                <div class="card" style="width:369px; height: 435px; margin-top:10px">
+                  <img class="card-img-top" style="background-color: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%);" src="workImg-2.png" alt="Card image">
+                  <div class="card-img-overlay">
+                    <div class="d-flex" style="height: 257px; width:369px; top:170px; align-items:flex-start; flex-direction:column; margin-top: 133px;">
+                      <h4 class="card-title" style="color:#fff; height:81px; width: 300px;">Data Dashboard <br/>Healthcare</h4>
+                      <p class="card-text" style="color: #fff; height:72px; width: 337px;">A daily selection of privately personalized reads; 
+                        no accounts or sign-ups required. 
+                        has been the industry's standard</p>
+                      <ul class="list-group list-group-horizontal gap-3">
+                        <li class="list-group-item" style="background-color: rgba(255, 255, 255, 0.24)">html</li>
+                        <li class="list-group-item" style="background-color: rgba(255, 255, 255, 0.24)">bootstrap</li>
+                        <li class="list-group-item" style="background-color: rgba(255, 255, 255, 0.24)">Ruby</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="card" style="width:369px; height: 435px; margin-top:10px">
+                  <img class="card-img-top" style="background-color: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%);" src="workImg-2.png" alt="Card image">
+                  <div class="card-img-overlay">
+                    <div class="d-flex" style="height: 257px; width:369px; top:170px; align-items:flex-start; flex-direction:column; margin-top: 130px;">
+                      <h4 class="card-title" style="color:#fff; height:81px; width: 300px;margin-top:5px;">Website Protfolio </h4>
+                      <p class="card-text" style="color: #fff; height:72px; width: 337px;">A daily selection of privately personalized reads; 
+                        no accounts or sign-ups required. 
+                        has been the industry's standard</p>
+                      <ul class="list-group list-group-horizontal gap-3">
+                        <li class="list-group-item" style="background-color: rgba(255, 255, 255, 0.24)">html</li>
+                        <li class="list-group-item" style="background-color: rgba(255, 255, 255, 0.24)">bootstrap</li>
+                        <li class="list-group-item" style="background-color: rgba(255, 255, 255, 0.24)">Ruby</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="row" style="gap: 10px;">
+                  <div class="card" style="width:369px; height: 435px; margin-top:10px">
+                    <img class="card-img-top" style="background-color: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%);" src="workImg-2.png" alt="Card image">
+                    <div class="card-img-overlay">
+                      <div class="d-flex" style="height: 257px; width:369px; top:170px; align-items:flex-start; flex-direction:column; margin-top: 130px;">
+                        <h4 class="card-title" style="color:#fff; height:81px; width: 300px;margin-top:5px;">Profesional Art<br/> Printing Data More </h4>
+                        <p class="card-text" style="color: #fff; height:72px; width: 337px;">A daily selection of privately personalized reads; 
+                          no accounts or sign-ups required. 
+                          has been the industry's standard</p>
+                        <ul class="list-group list-group-horizontal gap-3">
+                          <li class="list-group-item" style="background-color: rgba(255, 255, 255, 0.24)">html</li>
+                          <li class="list-group-item" style="background-color: rgba(255, 255, 255, 0.24)">bootstrap</li>
+                          <li class="list-group-item" style="background-color: rgba(255, 255, 255, 0.24)">Ruby</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card" style="width:369px; height: 435px; margin-top:10px">
+                    <img class="card-img-top" style="background-color: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%);" src="workImg-2.png" alt="Card image">
+                    <div class="card-img-overlay">
+                      <div class="d-flex" style="height: 257px; width:369px; top:170px; align-items:flex-start; flex-direction:column; margin-top: 130px;">
+                        <h4 class="card-title" style="color:#fff; height:81px; width: 300px;margin-top:5px;">Data Dashboard <br/>Healthcare</h4>
+                        <p class="card-text" style="color: #fff; height:72px; width: 337px;">A daily selection of privately personalized reads; 
+                          no accounts or sign-ups required. 
+                          has been the industry's standard</p>
+                        <ul class="list-group list-group-horizontal gap-3">
+                          <li class="list-group-item" style="background-color: rgba(255, 255, 255, 0.24)">html</li>
+                          <li class="list-group-item" style="background-color: rgba(255, 255, 255, 0.24)">bootstrap</li>
+                          <li class="list-group-item" style="background-color: rgba(255, 255, 255, 0.24)">Ruby</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card" style="width:369px; height: 435px; margin-top:10px">
+                    <img class="card-img-top" style="background-color: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%);" src="workImg-2.png" alt="Card image">
+                    <div class="card-img-overlay">
+                      <div class="d-flex" style="height: 257px; width:369px; top:170px; align-items:flex-start; flex-direction:column; margin-top: 130px;">
+                        <h4 class="card-title" style="color:#fff; height:81px; width: 300px;margin-top:5px;">Website Protfolio </h4>
+                        <p class="card-text" style="color: #fff; height:72px; width: 337px;">A daily selection of privately personalized reads; 
+                          no accounts or sign-ups required. 
+                          has been the industry's standard</p>
+                        <ul class="list-group list-group-horizontal gap-3">
+                          <li class="list-group-item" style="background-color: rgba(255, 255, 255, 0.24)">html</li>
+                          <li class="list-group-item" style="background-color: rgba(255, 255, 255, 0.24)">bootstrap</li>
+                          <li class="list-group-item" style="background-color: rgba(255, 255, 255, 0.24)">Ruby</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+        </section>
+
+        <section class="row" style="width: 1163px; height: 590px">
+          <div class="row">
+            <div
+              class="col-md-6"
+              style="
+                margin-top: 130px;
+                width: 455px;
+                height: 256px;
+                align-items: center;
+                display: flex;
+                padding-left: 50px;
+              "
+            >
+              <p style="font-size: 30px; line-height: 52px">
+                I'm always interested in hearing about new projects, so if you'd
+                like to chat please get in touch.
+              </p>
+            </div>
+            <div class="col-md-6"style=" padding-left: 30px">
+              <form action="https://formspree.io/f/mnqreddp" method="post">
+                <div
+                  class="row"
+                  style="width: 660px; height: 48px; margin-top: 130px;"
+                >
+                  <div class="col">
+                    <input
+                      type="text"
+                      class="form-control"
+                      style="border-left: none;
+                      border-right: none;
+                      border-top: none;"
+                      placeholder="Enter firstname"
+                      name="name"
+                    />
+                  </div>
+                  <div class="col">
+                    <input
+                      type="text"
+                      class="form-control"
+                      style="border-left: none;
+                      border-right: none;
+                      border-top: none;"
+                      placeholder="Enter lastname"
+                      name="name"
+                    />
+                  </div>
+                </div>
+                <div class="col">
+                  <input
+                    type="email"
+                    class="form-control"
+                    style="border-left: none;
+                      border-right: none;
+                      border-top: none;"
+                    placeholder="Enter Email"
+                    name="email"
+                  />
+                </div>
+                <textarea
+                  class="form-control"
+                  rows="5"
+                  id="comment"
+                  name="text"
+                  placeholder="Hello Mariane. Glad to see you |"
+                ></textarea>
+                <button type="button" class="btn"style="color: #fff;background:#F55800; margin-top:10px;">Basic</button>
+              </form>
+            </div>
+          </div>
+        </section>
+
+
+
+
+    </main>
+    <footer>
+        <hr class="m-0 bg-dark">
+        <div class="bg-dark">
+          <ul class="social-icon d-flex p-2 justify-content-center text-center">
+            <li class="p-2" ><a href="https://twitter.com/HIENPHAN0111"><i class="fa-brands fa-twitter contact-icon fa-xl text-white"></i></a></li>
+            <li class="p-2"><a href="https://www.linkedin.com/in/hien-phan-61097b256/"><i class="fa-brands fa-linkedin-in contact-icon fa-xl text-white"></i></a></li>
+            <li class="p-2"><a href="https://github.com/hienphan0111"><i class="fa-brands fa-github contact-icon fa-xl text-white"></i></a></li>
+            <li class="p-2"><a href="http://"><i class="fa-brands fa-angellist contact-icon fa-xl text-white"></i></a></li>   
+          </ul>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
